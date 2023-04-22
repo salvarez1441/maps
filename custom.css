@@ -1,12 +1,3 @@
-.fuente-titulo{color:#757575;line-height:1.5;font-size:15px;font-weight:400;font-family:"Open Sans",sans-serif;text-align:justify}
-.fuente-subtitulo{color:#757575;line-height:1.5;font-size:20px;font-weight:400;font-family:"Open Sans",sans-serif;text-align:justify}
-.fuente-parrafo{color:#5b5b5e!important;line-height:1.5!important;font-size:16px!important;font-weight:400;font-family:"Open Sans",sans-serif;text-align:center}
-.fuente-parrafo-justify{color:#5b5b5e;line-height:1.5;font-size:16px;font-weight:400;font-family:"Open Sans",sans-serif;letter-spacing:1px}
-.fuente-parrafo-white{color:#fff;line-height:1.5;font-size:15px;font-weight:700;font-family:"Open Sans",sans-serif;text-align:justify}
-.fuente-subparrafo{color:#757575;line-height:1.5;font-size:13px;font-weight:400;font-family:"Open Sans",sans-serif;text-align:left}
-.letter-spacing-0-75{letter-spacing:.75px}
-.letter-spacing-0-5{letter-spacing:.5px}
-.color-callao{color:#fda93a!important}
 .color-white{color:#fff!important}
 .background-callao{background:#fda93a!important}
 .margin-bottom-0-callao{margin-bottom:0!important}
@@ -37,12 +28,6 @@
 .letter-spacing-4{letter-spacing:4px}
 .line-height-18{line-height:18px!important}
 .cursor-pointer{cursor:pointer}
-.bg-breadcrumb-1{background-image:url(../images/inicio/banner/1.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}
-.bg-breadcrumb-2{background-image:url(../images/inicio/banner/2.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}
-.bg-breadcrumb-3{background-image:url(../images/inicio/banner/3.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}
-.bg-breadcrumb-4{background-image:url(../images/inicio/banner/4.html);background-repeat:no-repeat;background-size:cover;background-position:center center}
-.bg-breadcrumb-5{background-image:url(../images/inicio/banner/5.html);background-repeat:no-repeat;background-size:cover;background-position:center center}
-.bg-breadcrumb-6{background-image:url(../images/inicio/banner/6.html);background-repeat:no-repeat;background-size:cover;background-position:center center}
 .float-right{float:right}
 .float-left{float:left}
 .font-weight-700{font-weight:700}
@@ -93,14 +78,14 @@
 .leaflet-control-search.search-exp{background:#fff;padding:5px;border:0;background-clip:padding-box}
 .search-input{width:175px!important}
 .leaflet-control-search .search-input{display:block;float:left;border:0;height:22px;padding:0 20px 0 2px;margin:4px 0 4px 4px;border-bottom:1px solid #ccc;font-family:"Open Sans",sans-serif;font-size:14px}
-.leaflet-control-search.search-load .search-input{background:url(../images/complement/maps/iconos/loader.gif) no-repeat center right #fff}
+.leaflet-control-search.search-load .search-input{background:url(https://cdn.jsdelivr.net/gh/salvarez1441/maps/img/loader.gif) no-repeat center right #fff}
 .leaflet-control-search.search-load .search-cancel{visibility:hidden}
-.leaflet-control-search .search-cancel{display:block;width:22px;height:22px;position:absolute;right:28px;margin:5px 0;background:url(../images/complement/maps/iconos/search-icon.png) no-repeat 0 -46px;text-decoration:none;opacity:.8}
+.leaflet-control-search .search-cancel{display:block;width:22px;height:22px;position:absolute;right:28px;margin:5px 0;background:url(https://cdn.jsdelivr.net/gh/salvarez1441/maps/img/search-icon.png) no-repeat 0 -46px;text-decoration:none;opacity:.8}
 .leaflet-control-search .search-cancel:hover{opacity:1}
 .leaflet-control-search .search-cancel span{display:none;font-size:18px;line-height:20px;color:#ccc;font-weight:700}
 .leaflet-control-search .search-cancel:hover span{color:#aaa}
-.leaflet-control-search .search-button{display:block;float:left;width:30px;height:30px;background:url(../images/complement/maps/iconos/search-icon.png) no-repeat 4px 4px #fff;border-radius:4px}
-.leaflet-control-search .search-button:hover{background:url(../images/complement/maps/iconos/search-icon.png) no-repeat 4px -20px #fafafa}
+.leaflet-control-search .search-button{display:block;float:left;width:30px;height:30px;background:url(https://cdn.jsdelivr.net/gh/salvarez1441/maps/img/search-icon.png) no-repeat 4px 4px #fff;border-radius:4px}
+.leaflet-control-search .search-button:hover{background:url(https://cdn.jsdelivr.net/gh/salvarez1441/maps/img/search-icon.png) no-repeat 4px -20px #fafafa}
 .leaflet-control-search .search-tooltip{position:absolute;top:100%;left:0;float:left;list-style:none;padding-left:0;min-width:120px;max-height:122px;z-index:1010;overflow-y:auto;overflow-x:hidden;cursor:pointer;background:#fff;width:219px}
 .leaflet-control-search .search-tip{margin:4px;display:block;color:#000;background:#eee;font-family:"Open Sans",sans-serif;vertical-align:center;height:28px;display:flex;align-items:center;padding-left:5px}
 .leaflet-control-search .search-button:hover{background-color:#fff}
@@ -108,7 +93,7 @@
 .leaflet-control-search .search-alert{cursor:pointer;padding-left:5px;color:#e00;font-weight:700;font-family:"Open Sans",sans-serif;font-size:12px}
 .leaflet-control-attribution{display:none}
 .leaflet-container .leaflet-control-gps{position:relative;background:#fff;margin-left:10px;margin-top:10px;width:40px;height:40px;display:flex;align-items:center;justify-content:center}
-.leaflet-control-gps .gps-button{display:block;float:left;width:25px;height:25px;background-image:url(http://portal.regioncallao.gob.pe/observatorioGRC/images/complement/maps/iconos/gps-icon.svg);background-repeat-x:no-repeat}
+.leaflet-control-gps .gps-button{display:block;float:left;width:25px;height:25px;background-image:url(https://cdn.jsdelivr.net/gh/salvarez1441/maps/img/gps-icon.svg);background-repeat-x:no-repeat}
 .leaflet-control-gps .gps-button.active:hover,.leaflet-control-gps .gps-button:hover{background-color:#fff}
 .leaflet-control-gps .gps-button.loading,.leaflet-control-gps .gps-button.loading:hover{background-position:1px -28px}
 .leaflet-control-gps .gps-button.active{background-position:1px -52px}
